@@ -158,12 +158,12 @@ body {
 
 .about {
     height: 100vh;
-    padding: 10%;
+    padding: 15% 10%;
 }
 
 .about-content {
     display: flex;
-    gap: 50px;
+    gap: 20px;
     align-items: center;
     flex-direction: column;
 }
@@ -450,4 +450,10 @@ footer {
         font-size: 20px;
     }
 
+}
+
+@media  screen and (max-width:400px) {
+    .dropdown-menu a {
+        font-size: 1.5rem;
+    }
 }
