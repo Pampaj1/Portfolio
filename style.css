@@ -177,6 +177,17 @@ body {
     font-size: 30px;
     color: var(--first);
     margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-icons {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.about-icons i {
+    font-size: 100px;
 }
 
 /*3 section (services)*/
@@ -448,6 +459,12 @@ footer {
 
     .btn-box a {
         font-size: 20px;
+    }
+
+    .about-icons {
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 10px;
     }
 
 }
