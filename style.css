@@ -57,6 +57,7 @@ body {
     background: none;
     border: none;
     cursor: pointer;
+    font-size: 40px;
 }
 
 .dropdown-menu {
@@ -86,6 +87,11 @@ body {
     width: 50%;
 }
 
+section {
+    height: 100vh;
+    padding: 10%;
+}
+
 /*1 section (home)*/
 
 .home {
@@ -93,7 +99,7 @@ body {
     align-items: center;
     height: 100vh;
     padding: 10%;
-    gap: 8rem;
+    /*gap: 8rem;*/
 }
 
 .home-content {
@@ -157,8 +163,7 @@ body {
 /*2 section (about)*/
 
 .about {
-    height: 100vh;
-    padding: 15% 10%;
+   
 }
 
 .about-content {
@@ -193,8 +198,7 @@ body {
 /*3 section (services)*/
 
 .services {
-    height: 100vh;
-    padding: 10%;
+    
 }
 
 .services-content {
@@ -205,8 +209,7 @@ body {
 /*4 section (portfolio)*/
 
 .portfolio {
-    height: 100vh;
-    padding: 10%;
+    height: 80vh;
 }
 
 /*5 section (contact)*/
@@ -400,15 +403,12 @@ footer {
         width: 100%;
     }
     
-    .home {
-        height: 100vh;
-        padding: 10%;
-    }
-    
+    /*
     .home-content {
         width: 50%;
     }
-    
+    */
+
     .home-content h1 {
         line-height: 90%;
         font-size: 60px;
@@ -466,6 +466,10 @@ footer {
         gap: 40px;
         margin-top: 10px;
     }
+
+    .about {
+        padding-top: 35%;
+     }
 
 }
 
