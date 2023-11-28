@@ -166,7 +166,6 @@ body {
     gap: 50px;
     align-items: center;
     flex-direction: column;
-    margin-top: 20px;
 }
 
 .about-text {
@@ -177,7 +176,7 @@ body {
 .about-content h1 {
     font-size: 30px;
     color: var(--first);
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 /*3 section (services)*/
