@@ -15,13 +15,13 @@ dropdownLink.forEach(item => {
 
 aboutIcon.forEach(item => {
     item.addEventListener('mouseover', () => {
-        item.classList.add('fa-bounce')
+        item.classList.add('fa-shake')
     })
 })
 
 aboutIcon.forEach(item => {
     item.addEventListener('mouseout', () => {
-        item.classList.remove('fa-bounce')
+        item.classList.remove('fa-shake')
     })
 })
 

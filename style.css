@@ -67,8 +67,9 @@ body {
     flex-direction: column;
     right: 0;
     top: 0;
-    width: 0;
-    height: 50%;
+    opacity: 0;
+    width: 0%;
+    height: auto;
     margin: 80px 0;
     background-color: var(--first);
     transition: 0.2s all ease-in-out;
@@ -76,15 +77,16 @@ body {
     padding: 20px;
 }
 
+.dropdown-menu.show {
+    visibility: visible;
+    width: 50%;
+    opacity: 1;
+}
+
 .dropdown-menu a {
     color: var(--background);
     text-decoration: none;
     font-size: 2rem;
-}
-
-.show {
-    visibility: visible;
-    width: 50%;
 }
 
 section {
@@ -97,9 +99,6 @@ section {
 .home {
     display: flex;
     align-items: center;
-    height: 100vh;
-    padding: 10%;
-    /*gap: 8rem;*/
 }
 
 .home-content {
@@ -215,8 +214,6 @@ section {
 /*5 section (contact)*/
 
 .contact {
-    height: 100vh;
-    padding: 10%;
     display: flex;
     z-index: -1;
 }
@@ -260,7 +257,6 @@ section {
 
 .input-field {
     margin-top: 10px;
-    
 }
 
 .input-field input {
@@ -403,11 +399,9 @@ footer {
         width: 100%;
     }
     
-    /*
     .home-content {
         width: 50%;
     }
-    */
 
     .home-content h1 {
         line-height: 90%;
@@ -432,6 +426,11 @@ footer {
         width: 35rem;
         height: 35rem;
     }
+
+    .about p {
+        font-weight: bold;
+        font-size: 1.5rem;
+     }
 
 }
 
@@ -468,13 +467,15 @@ footer {
     }
 
     .about {
-        padding-top: 35%;
+        padding-top: 30%;
      }
 
+     
 }
 
 @media  screen and (max-width:400px) {
     .dropdown-menu a {
         font-size: 1.5rem;
     }
+
 }
