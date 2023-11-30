@@ -211,6 +211,13 @@ section {
     height: 80vh;
 }
 
+.portfolio h1 {
+    font-size: 30px;
+    color: var(--first);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 /*5 section (contact)*/
 
 .contact {
