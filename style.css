@@ -22,7 +22,7 @@ body {
 :root {
     --background: #0B2447;
     --main: #e7e5e5;
-    --first: #8ac9df; 
+    --first: #8ac9df;
 }
 
 /*NAVIGATION SECTION*/
@@ -194,13 +194,13 @@ section {
     font-size: 100px;
 }
 
-/*3 section (services)*/
+/*3 section (skills)*/
 
-.services {
+.skills {
     
 }
 
-.services-content {
+.skills-content {
 
 }
 
